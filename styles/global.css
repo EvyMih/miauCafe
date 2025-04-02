@@ -1,0 +1,67 @@
+:root {
+    --text: #f5f4ef;
+    --background: #0c0b07;
+    --primary: #ccc8ad;
+    --secondary: #406546;
+    --secondary-hover: #243928;
+    --accent: #7eae99;
+    --primary-font: "Inter";
+    --size-lg: 1.125rem;
+    --size-md: 0.875rem;
+    --size-sm: 0.8125rem;
+  }
+body{
+    background-color: var(--background);
+}
+body *{
+    font-family: var(--primary-font), sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.listaMenu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aMenu{
+    font-size: var(--size-dm);
+    text-decoration: none;
+    color: var(--primary);
+}
+.aMenu:hover{
+    cursor: pointer;
+    color: var(--secondary);
+}
+.span{
+    color: var(--secondary);
+}
+.iconHome{
+    font-size: var(--size-lg);
+    text-decoration: none;
+    color: var(--primary);
+}
+.iconHome:hover{
+    color: var(--secondary);
+    cursor: pointer;
+}
+/*-----------------------------------------------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.adm{
+    font-size: var(--size-dm);
+    color: var(--primary);
+}
+.local{
+    font-size: var(--size-dm);
+    color: var(--primary);
+}
